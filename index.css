@@ -820,6 +820,10 @@ ul {
 
 /* FAQ */
 
+#FAQ {
+  margin-bottom: 96px;
+}
+
 .faq__header {
   display: flex;
   flex-direction: column;
@@ -881,6 +885,63 @@ ul {
 
 .accordion__body + .accordion__header--text.active {
   display: block;
+}
+
+/* GET STARTED */
+
+.get__started--body {
+  background: #6415ff;
+  height: 236px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.get__started--body-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 72px;
+}
+
+.get__started--title {
+  font-size: 28px;
+  color: #f7fafc;
+  margin-left: 48px;
+}
+
+.get__started--button-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.get__started--button {
+  padding: 22px 44px;
+  font-size: 16px;
+  margin-right: 24px;
+  background: #F56565;
+  border-radius: 9999px;
+  color: #f7fafc;
+  border: none;
+  font-weight: bold;
+  transition: all 300ms ease;
+  border: 1px solid rgb(229,62,62);
+}
+
+.get__started--button:hover {
+  cursor: pointer;
+  background: rgb(229,62,62);
+}
+
+.get__started--button-special {
+  border: 1px solid rgb(160,174,192);
+  background: #6415ff;
+}
+
+.get__started--button-special:hover {
+  background-color: rgb(247,250,252);
+  color: rgb(100,21,255);
 }
 
 @media (max-width: 928px) {
